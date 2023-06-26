@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo {
+    width: 400px;
+    margin: 150px auto;
+}
+
+.header {
+    background-color: #24273d;
+    padding: 10px;
+}
+
+.circle-btn {
+    border: 1px #a9a8d2 solid;
+    color: #a9a8d2;
+    background-color: transparent;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+
+}
+
+.header input {
+    background-color: transparent;
+    margin-left: 5px;
+    width: calc(100%-35px);
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: #a9a8d2;
+}
+
+.main {
+    background-color: #24273d;
+    padding: 10px;
+    margin-top: 20px;
+
+
+}
+
+
+.main-item-left,
+.main-item-right {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.main-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a9a8d2;
+    padding: 10px 0;
+    border-bottom: 1px solid #a9a8d2;
+}
+
+.footer {
+    background-color: #24273d;
+    color: #a9a8d2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer button {
+    background-color: transparent;
+    border: none;
+    color: #a9a8d2;
+
+
+
+}
+
+
+.footer-center {
+    display: flex;
+    column-gap: 5px;
+}
+
+
+body {
+    background-image: url(./Без\ названия\ \(3\).jpeg);
+    background-position: 50% 60%;
+}
+
+
+.footer-center button.active {
+
+    color: #4475e2 !important;
+}
